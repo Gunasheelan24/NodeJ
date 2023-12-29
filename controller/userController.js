@@ -51,7 +51,7 @@ exports.sentEmail = async (req, res) => {
       get started
     </p>
     <div style="text-align: center">
-      <a href="http://localhost:5173/changePassword/${hash}/${userEmail.email}">
+        <a href="${process.env.NODE_REACTJS}changePassword/${hash}/${userEmail.email}">
         <button
           type="submit"
           style="
